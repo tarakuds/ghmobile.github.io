@@ -11,14 +11,19 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.museresponsive.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=106113426"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=222583740" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=3873004370"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4243157190" id="pagesheet"/>
+  <!-- IE-only CSS -->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?crc=3820102229"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=4110293247" id="nomq_pagesheet"/>
+  <![endif]-->
     <!--HTML Widget code-->
   
 	<style>
@@ -29,91 +34,150 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
  </head>
  <body>
 
-  <div class="clearfix borderbox" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="pslideshowu832"><!-- group -->
-    <div class="SlideShowWidget clearfix grpelem" id="slideshowu832" data-visibility="changed" style="visibility:hidden"><!-- none box -->
-     <div class="popup_anchor allow_click_through grpelem" data-col-pos="0" id="u844popup">
-      <div class="SlideShowContentPanel clearfix" data-col-pos="0" id="u844"><!-- stack box -->
-       <div class="SSSlide clip_frame grpelem" data-col-pos="0" id="u845"><!-- image -->
-        <img class="block ImageInclude" data-col-pos="0" id="u845_img" data-src="images/slide%201.jpg?crc=4211258911" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.5555555555555556" data-image-width="1080" data-image-height="600"/>
-       </div>
-       <div class="SSSlide invi clip_frame grpelem" data-col-pos="1" id="u951"><!-- image -->
-        <img class="block ImageInclude" data-col-pos="1" id="u951_img" data-src="images/slide%202.jpg?crc=304915818" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.5555555555555556" data-image-width="1080" data-image-height="600"/>
-       </div>
-       <div class="SSSlide invi clip_frame grpelem" data-col-pos="2" id="u971"><!-- image -->
-        <img class="block ImageInclude" data-col-pos="2" id="u971_img" data-src="images/slide%203.jpg?crc=412807046" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.5555555555555556" data-image-width="1080" data-image-height="600"/>
+  <div class="breakpoint active" id="bp_infinity" data-min-width="641"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox" id="page"><!-- group -->
+    <div class="clearfix grpelem" id="pslideshowu832"><!-- group -->
+     <div class="SlideShowWidget clearfix grpelem" id="slideshowu832" data-visibility="changed" style="visibility:hidden"><!-- none box -->
+      <div class="popup_anchor allow_click_through grpelem" data-col-pos="0" id="u844popup">
+       <div class="SlideShowContentPanel clearfix" data-col-pos="0" id="u844"><!-- stack box -->
+        <div class="SSSlide clip_frame grpelem" data-col-pos="0" id="u845"><!-- image -->
+         <img class="block ImageInclude" data-col-pos="0" id="u845_img" data-src="images/slide%201.jpg?crc=4211258911" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.5555555555555556" data-image-width="1080" data-image-height="600"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem" data-col-pos="1" id="u951"><!-- image -->
+         <img class="block ImageInclude" data-col-pos="1" id="u951_img" data-src="images/slide%202.jpg?crc=304915818" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.5555555555555556" data-image-width="1080" data-image-height="600"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem" data-col-pos="2" id="u971"><!-- image -->
+         <img class="block ImageInclude" data-col-pos="2" id="u971_img" data-src="images/slide%203.jpg?crc=412807046" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.5555555555555556" data-image-width="1080" data-image-height="600"/>
+        </div>
        </div>
       </div>
      </div>
-    </div>
-    <div class="browser_width grpelem" id="u1181-bw">
-     <div class="size_browser_width" id="u1181"><!-- custom html -->
-      
+     <div class="browser_width grpelem shared_content" id="u1181-bw" data-content-guid="u1181-bw_content">
+      <div class="size_browser_width" id="u1181"><!-- custom html -->
+       
 	<div class="particle"></div>
 	
-     </div>
-    </div>
-    <div class="PamphletWidget clearfix grpelem" id="pamphletu1015" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- none box -->
-     <div class="ThumbGroup clearfix grpelem" id="u1024" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- none box -->
-      <div class="popup_anchor" id="u1025popup">
-       <div class="Thumb popup_element transition rounded-corners gradient clearfix" id="u1025" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- column -->
-        <div class="transition clearfix colelem" id="u1026-10" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content -->
-         <p>M</p>
-         <p>e</p>
-         <p>n</p>
-         <p>u</p>
-        </div>
-        <div class="colelem" id="u1027" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- simple frame --></div>
-       </div>
       </div>
      </div>
-     <div class="popup_anchor" id="u1016popup">
-      <div class="ContainerGroup clearfix" id="u1016" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- stack box -->
-       <div class="Container invi rounded-corners clearfix grpelem" id="u1017" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- group -->
-        <div class="clearfix grpelem" id="u1018"><!-- column -->
-         <div class="clearfix colelem" id="u1020-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
-          <p>About Us</p>
+     <div class="PamphletWidget clearfix grpelem" id="pamphletu1015" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" id="u1024" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- none box -->
+       <div class="popup_anchor" id="u1025popup">
+        <div class="Thumb popup_element transition rounded-corners gradient clearfix" id="u1025" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- column -->
+         <div class="transition clearfix colelem shared_content" id="u1026-10" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u1026-10_content"><!-- content -->
+          <p>M</p>
+          <p>e</p>
+          <p>n</p>
+          <p>u</p>
          </div>
-         <div class="clearfix colelem" id="u1022-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
-          <p>Services</p>
-         </div>
-         <div class="clearfix colelem" id="u1021-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
-          <p>Career</p>
-         </div>
-         <div class="clearfix colelem" id="u1023-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
-          <p>News</p>
-         </div>
-         <div class="clearfix colelem" id="u1019-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
-          <p>Contact Us</p>
-         </div>
+         <div class="colelem shared_content" id="u1027" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u1027_content"><!-- simple frame --></div>
         </div>
        </div>
       </div>
+      <div class="popup_anchor" id="u1016popup">
+       <div class="ContainerGroup clearfix" id="u1016" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- stack box -->
+        <div class="Container invi rounded-corners clearfix grpelem" id="u1017" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- group -->
+         <div class="clearfix grpelem shared_content" id="u1018" data-content-guid="u1018_content"><!-- column -->
+          <div class="clearfix colelem" id="u1020-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
+           <p>About Us</p>
+          </div>
+          <div class="clearfix colelem" id="u1022-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
+           <p>Services</p>
+          </div>
+          <div class="clearfix colelem" id="u1021-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
+           <p>Career</p>
+          </div>
+          <div class="clearfix colelem" id="u1023-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
+           <p>News</p>
+          </div>
+          <div class="clearfix colelem" id="u1019-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
+           <p>Contact Us</p>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix grpelem shared_content" id="u1471" data-content-guid="u1471_content"><!-- group -->
+      <div class="rounded-corners clearfix grpelem" id="u1187"><!-- column -->
+       <div class="colelem" id="u1188" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- simple frame --></div>
+       <div class="clip_frame colelem" id="u1215" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- image -->
+        <img class="block temp_no_img_src" id="u1215_img" data-orig-src="images/icon-linkedin.png?crc=4188066879" alt="" width="25" height="29" src="images/blank.gif?crc=4208392903"/>
+       </div>
+       <div class="clip_frame colelem" id="u1208" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- image -->
+        <img class="block temp_no_img_src" id="u1208_img" data-orig-src="images/icon_twitter.png?crc=417344401" alt="" width="25" height="29" src="images/blank.gif?crc=4208392903"/>
+       </div>
+       <div class="clip_frame colelem" id="u1200" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- image -->
+        <img class="block temp_no_img_src" id="u1200_img" data-orig-src="images/icon_facebook.png?crc=4062765350" alt="" width="25" height="29" src="images/blank.gif?crc=4208392903"/>
+       </div>
+      </div>
+     </div>
+     <div class="clip_frame grpelem" id="u356"><!-- image -->
+      <img class="block temp_no_img_src" id="u356_img" data-orig-src="images/logo-animation.gif?crc=368280381" alt="" data-heightwidthratio="0.3333333333333333" data-image-width="225" data-image-height="75" src="images/blank.gif?crc=4208392903"/>
      </div>
     </div>
-    <div class="clearfix grpelem" id="u1186"><!-- group -->
-     <div class="rounded-corners clearfix grpelem" id="u1187"><!-- group -->
-      <div class="grpelem" id="u1188" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- simple frame --></div>
-     </div>
-    </div>
-    <div class="clip_frame grpelem" id="u356"><!-- image -->
-     <img class="block" id="u356_img" src="images/logo-animation.gif?crc=368280381" alt="" data-heightwidthratio="0.3333333333333333" data-image-width="225" data-image-height="75"/>
-    </div>
-   </div>
-   <div class="verticalspacer" data-offset-top="644" data-content-above-spacer="644" data-content-below-spacer="39" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
-   <div class="size_fixed grpelem" id="u1195" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
-    
+    <div class="verticalspacer" data-offset-top="662" data-content-above-spacer="661" data-content-below-spacer="39" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="size_fixed grpelem shared_content" id="u1195" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-content-guid="u1195_content"><!-- custom html -->
+     
 
+    </div>
+    <div class="rounded-corners clearfix grpelem" id="u151"><!-- group -->
+     <div class="clearfix grpelem" id="u338-4"><!-- content -->
+      <p>Privacy Policy</p>
+     </div>
+     <div class="clearfix grpelem shared_content" id="u350-4" data-content-guid="u350-4_content"><!-- content -->
+      <p>©2020 copyrights. All rights reserved</p>
+     </div>
+     <div class="clearfix grpelem" id="u344-4"><!-- content -->
+      <p>FAQ</p>
+     </div>
+    </div>
    </div>
-   <div class="rounded-corners clearfix grpelem" id="u151"><!-- group -->
-    <div class="clearfix grpelem" id="u338-4"><!-- content -->
-     <p>Privacy Policy</p>
+  </div>
+  <div class="breakpoint" id="bp_640" data-max-width="640"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pslideshowu832"><!-- group -->
+     <div class="SlideShowWidget clearfix grpelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-orig-id="slideshowu832"><!-- none box -->
+      <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="0" data-orig-id="u844popup">
+       <div class="SlideShowContentPanel clearfix temp_no_id" data-col-pos="0" data-orig-id="u844"><!-- stack box -->
+        <div class="SSSlide clip_frame grpelem temp_no_id" data-col-pos="0" data-orig-id="u845"><!-- image -->
+         <img class="block ImageInclude temp_no_id" data-col-pos="0" data-src="images/slide%201600x333.jpg?crc=4134573089" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.5559265442404007" data-image-width="599" data-image-height="333" data-orig-id="u845_img"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="1" data-orig-id="u951"><!-- image -->
+         <img class="block ImageInclude temp_no_id" data-col-pos="1" data-src="images/slide%202600x333.jpg?crc=346252373" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.5559265442404007" data-image-width="599" data-image-height="333" data-orig-id="u951_img"/>
+        </div>
+        <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="2" data-orig-id="u971"><!-- image -->
+         <img class="block ImageInclude temp_no_id" data-col-pos="2" data-src="images/slide%203600x333.jpg?crc=3901599487" src="images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="0.5559265442404007" data-image-width="599" data-image-height="333" data-orig-id="u971_img"/>
+        </div>
+       </div>
+      </div>
+     </div>
+     <span class="browser_width grpelem placeholder" data-placeholder-for="u1181-bw_content"><!-- placeholder node --></span>
+     <div class="PamphletWidget clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="pamphletu1015"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u1024"><!-- none box -->
+       <div class="popup_anchor temp_no_id" data-orig-id="u1025popup">
+        <div class="Thumb popup_element transition rounded-corners gradient clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u1025"><!-- column -->
+         <span class="transition clearfix colelem placeholder" data-placeholder-for="u1026-10_content"><!-- placeholder node --></span>
+         <span class="colelem placeholder" data-placeholder-for="u1027_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u1016popup">
+       <div class="ContainerGroup clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u1016"><!-- stack box -->
+        <div class="Container invi rounded-corners clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u1017"><!-- group -->
+         <span class="clearfix grpelem placeholder" data-placeholder-for="u1018_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
+     </div>
+     <span class="clearfix grpelem placeholder" data-placeholder-for="u1471_content"><!-- placeholder node --></span>
+     <div class="clip_frame grpelem temp_no_id" data-orig-id="u356"><!-- image -->
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="images/logo-animation.gif?crc=368280381" alt="" data-heightwidthratio="0.3333333333333333" data-image-width="135" data-image-height="45" data-orig-id="u356_img" src="images/blank.gif?crc=4208392903"/>
+     </div>
     </div>
-    <div class="clearfix grpelem" id="u350-4"><!-- content -->
-     <p>©2020 copyrights. All rights reserved</p>
-    </div>
-    <div class="clearfix grpelem" id="u344-4"><!-- content -->
-     <p>FAQ</p>
+    <div class="verticalspacer" data-offset-top="642" data-content-above-spacer="642" data-content-below-spacer="40" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <span class="size_fixed grpelem placeholder" data-placeholder-for="u1195_content"><!-- placeholder node --></span>
+    <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u151"><!-- group -->
+     <span class="clearfix grpelem placeholder" data-placeholder-for="u350-4_content"><!-- placeholder node --></span>
     </div>
    </div>
   </div>
@@ -135,7 +199,7 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","webpro","musewpslideshow","jquery.museoverlay","touchswipe"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.museresponsive"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
@@ -143,10 +207,10 @@ Muse.Utils.resizeHeight('.popup_anchor.allow_click_through');/* resize height */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
-Muse.Utils.initWidget('#slideshowu832', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); $(elem).data('widget', widget); return widget; });/* #slideshowu832 */
-Muse.Utils.initWidget('#pamphletu1015', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_both',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu1015 */
+Muse.Utils.initWidget('#slideshowu832', ['#bp_infinity', '#bp_640'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:1000,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); $(elem).data('widget', widget); return widget; });/* #slideshowu832 */
+Muse.Utils.initWidget('#pamphletu1015', ['#bp_infinity', '#bp_640'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_both',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu1015 */
 Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.showWidgetsWhenReady();/* body */
+$( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
 
