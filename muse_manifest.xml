@@ -1,12 +1,16 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.ghmobile.com" resolutions="1x" timestamp="1604421173599">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.ghmobile.com" resolutions="1x" timestamp="1604441123901">
+  <folder name="fonts">
+    <file name="segoeuil.woff" crc="383370875"/>
+    <file name="segoeuil.eot" crc="251854769"/>
+  </folder>
   <folder name="css">
-    <file name="site_global.css" crc="444006867"/>
-    <file name="master_a-master.css" crc="3873004370" ref="index:about-us"/>
-    <file name="index.css" crc="4243157190" ref="index"/>
-    <file name="nomq_preview_master_a-master.css" crc="3820102229" ref="about-us:index"/>
-    <file name="about-us.css" crc="4044549695" ref="about-us"/>
-    <file name="nomq_about-us.css" crc="3802089236" ref="about-us"/>
-    <file name="nomq_index.css" crc="4110293247" ref="index"/>
+    <file name="site_global.css" crc="4290871440"/>
+    <file name="master_a-master.css" crc="3918146566" ref="index:about-us"/>
+    <file name="index.css" crc="311052567" ref="index"/>
+    <file name="nomq_preview_master_a-master.css" crc="4037588492" ref="about-us:index"/>
+    <file name="about-us.css" crc="4198615579" ref="about-us"/>
+    <file name="nomq_about-us.css" crc="3978467421" ref="about-us"/>
+    <file name="nomq_index.css" crc="383529226" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:about-us"/>
@@ -20,45 +24,71 @@
     <file name="touchswipe.js" crc="3888935200" ref="index:about-us"/>
     <file name="require.js" crc="4177726516" ref="index:about-us"/>
     <file name="jquery.museresponsive.js" crc="95814420" ref="index:about-us"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="index:about-us"/>
   </folder>
   <folder name="images">
-    <file name="slide 1.jpg" crc="4211258911" seo="true" ref="index">
+    <file name="slide 1.jpg" crc="452145398" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="index:about-us"/>
-    <file name="slide 2.jpg" crc="304915818" seo="true" ref="index">
+    <file name="slide 2.jpg" crc="294793729" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="slide 3.jpg" crc="412807046" seo="true" ref="index">
+    <file name="slide 3.jpg" crc="217129220" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="loading.gif" crc="3815509949" ref="index"/>
-    <file name="logo-animation.gif" crc="368280381" seo="true" ref="index">
+    <file name="logo-animation.gif" crc="368280381" seo="true" ref="index:about-us">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
     </file>
     <file name="icon-linkedin.png" crc="4188066879" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="icon_twitter.png" crc="417344401" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="icon_facebook.png" crc="4062765350" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-    </file>
-    <file name="slide 1600x333.jpg" crc="4134573089" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="slide 2600x333.jpg" crc="346252373" seo="true" ref="index">
+    <file name="home-favicon.ico" crc="342595599" ref="index"/>
+    <file name="menu-bg.jpg" crc="4252774290" ref="index:about-us">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="mo_slide 1.jpg" crc="308964011" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="slide 3600x333.jpg" crc="3901599487" seo="true" ref="index">
+    <file name="mo_slide 2.jpg" crc="136756726" seo="true" ref="index">
       <caption webpage="index" alt=""/>
+    </file>
+    <file name="mo_slide 3.jpg" crc="3807421569" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="about-us-favicon.ico" crc="342595599" ref="about-us"/>
+    <file name="about-page.gif" crc="4268310345" seo="true" ref="about-us">
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4022963809" seo="true" mt="1604421161272" redirect="true"/>
-  <file name="about-us.html" crc="4096973692" seo="true" mt="1604421075567" redirect="true"/>
+  <file name="index.html" crc="4058781320" seo="true" mt="1604440942057" redirect="true"/>
+  <file name="about-us.html" crc="243157507" seo="true" mt="1604441112526" redirect="true"/>
 </manifest>

@@ -27,13 +27,13 @@
       <image:loc>http://www.ghmobile.com/images/icon_facebook.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://www.ghmobile.com/images/slide%201600x333.jpg</image:loc>
+      <image:loc>http://www.ghmobile.com/images/mo_slide%201.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://www.ghmobile.com/images/slide%202600x333.jpg</image:loc>
+      <image:loc>http://www.ghmobile.com/images/mo_slide%202.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://www.ghmobile.com/images/slide%203600x333.jpg</image:loc>
+      <image:loc>http://www.ghmobile.com/images/mo_slide%203.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -41,5 +41,11 @@
     <lastmod>2020-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://www.ghmobile.com/images/logo-animation.gif</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.ghmobile.com/images/about-page.gif</image:loc>
+    </image:image>
   </url>
 </urlset>
