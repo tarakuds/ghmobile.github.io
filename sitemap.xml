@@ -35,6 +35,15 @@
     <image:image>
       <image:loc>http://www.ghmobile.com/images/mo_slide%203.jpg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://www.ghmobile.com/images/mo_slide%201391x479.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.ghmobile.com/images/mo_slide%202391x479.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.ghmobile.com/images/mo_slide%203391x479.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://www.ghmobile.com/about-us.html</loc>
